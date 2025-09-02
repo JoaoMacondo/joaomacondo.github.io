@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portfólio - João Manuel Macondo</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+   <!-- Navbar -->
+   <nav class="fixed w-full bg-white shadow-md z-50">
+      <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+         <h1 class="text-xl font-bold text-indigo-600">João Macondo</h1>
+         <ul class="flex space-x-6 text-gray-700 font-medium">
+            <li><a href="#sobre" class="hover:text-indigo-600">Sobre</a></li>
+            <li><a href="#projetos" class="hover:text-indigo-600">Projetos</a></li>
+            <li><a href="#skills" class="hover:text-indigo-600">Skills</a></li>
+            <li><a href="#contato" class="hover:text-indigo-600">Contato</a></li>
+         </ul>
+      </div>
+   </nav>
+
+   <!-- Hero Section -->
+   <section
+      class="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-indigo-600 to-blue-500 text-white text-center"
+      id="home">
+      <h2 class="text-4xl md:text-6xl font-bold mb-4" data-aos="fade-up">Olá, eu sou João Manuel Macondo</h2>
+      <p class="text-lg md:text-xl max-w-2xl" data-aos="fade-up" data-aos-delay="200">Full Stack Developer apaixonado
+         por criar soluções digitais inovadoras em Java, Laravel, Angular e Django.</p>
+      <a href="#projetos"
+         class="mt-6 px-6 py-3 bg-white text-indigo-600 font-semibold rounded-lg shadow hover:bg-gray-100 transition"
+         data-aos="fade-up" data-aos-delay="400">Ver meus projetos</a>
+   </section>
+
+   <!-- Sobre mim -->
+   <section id="sobre" class="py-20 max-w-5xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">Sobre mim</h2>
+      <p class="text-center text-lg leading-relaxed" data-aos="fade-up">Sou licenciado em Ciência da Computação, com
+         experiência no desenvolvimento de sistemas web e desktop. Trabalho com Java, PHP (Laravel), Angular e Django,
+         além de análise de dados com Power BI. Busco sempre entregar soluções práticas e eficientes.</p>
+   </section>
+
+   <!-- Skills -->
+   <section id="skills" class="py-20 bg-gray-100">
+      <div class="max-w-6xl mx-auto px-6">
+         <h2 class="text-3xl font-bold text-center mb-12">Minhas Skills</h2>
+         <div class="grid md:grid-cols-4 gap-8 text-center" data-aos="fade-up">
+            <div class="p-6 bg-white rounded-xl shadow hover:shadow-lg">
+               <h3 class="text-xl font-semibold mb-2">Java</h3>
+               <p>Desenvolvimento Desktop e Web</p>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow hover:shadow-lg">
+               <h3 class="text-xl font-semibold mb-2">Laravel</h3>
+               <p>Aplicações robustas e seguras</p>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow hover:shadow-lg">
+               <h3 class="text-xl font-semibold mb-2">Angular</h3>
+               <p>Frontend moderno e responsivo</p>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow hover:shadow-lg">
+               <h3 class="text-xl font-semibold mb-2">Django</h3>
+               <p>APIs e sistemas hospitalares</p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- Projetos -->
+   <section id="projetos" class="py-20 max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">Projetos em Destaque</h2>
+      <div class="grid md:grid-cols-3 gap-8" data-aos="fade-up">
+         <div class="bg-white rounded-xl shadow hover:shadow-lg p-6">
+            <h3 class="text-xl font-semibold mb-2">Sistema de Gestão Escolar</h3>
+            <p class="mb-4">Aplicação em Java para gerir alunos, pagamentos e relatórios.</p>
+            <a href="#" class="text-indigo-600 hover:underline">Ver no GitHub</a>
+         </div>
+         <div class="bg-white rounded-xl shadow hover:shadow-lg p-6">
+            <h3 class="text-xl font-semibold mb-2">Loja Online</h3>
+            <p class="mb-4">E-commerce desenvolvido em Laravel e Angular, integrado com pagamentos.</p>
+            <a href="#" class="text-indigo-600 hover:underline">Ver no GitHub</a>
+         </div>
+         <div class="bg-white rounded-xl shadow hover:shadow-lg p-6">
+            <h3 class="text-xl font-semibold mb-2">Sistema Hospitalar</h3>
+            <p class="mb-4">Sistema em Django para gerir pacientes, consultas e relatórios médicos.</p>
+            <a href="#" class="text-indigo-600 hover:underline">Ver no GitHub</a>
+         </div>
+      </div>
+   </section>
+
+   <!-- Contato -->
+   <section id="contato" class="py-20 bg-gray-100">
+      <div class="max-w-4xl mx-auto px-6 text-center">
+         <h2 class="text-3xl font-bold mb-6">Entre em Contato</h2>
+         <p class="mb-6">Estou disponível para novos projetos e colaborações. Vamos conversar?</p>
+         <p>Email: <a href="mailto:teuemail@email.com" class="text-indigo-600 hover:underline">teuemail@email.com</a>
+         </p>
+         <p>GitHub: <a href="https://github.com/teuusuario" target="_blank"
+               class="text-indigo-600 hover:underline">github.com/teuusuario</a></p>
+         <p>LinkedIn: <a href="https://linkedin.com/in/teuusuario" target="_blank"
+               class="text-indigo-600 hover:underline">linkedin.com/in/teuusuario</a></p>
+      </div>
+   </section>
+
+   <!-- Footer -->
+   <footer class="bg-gray-900 text-white text-center py-4">
+      <p>&copy; 2025 João Manuel Macondo. Todos os direitos reservados.</p>
+   </footer>
+
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init();
+   </script>
+</body>
+
+</html>

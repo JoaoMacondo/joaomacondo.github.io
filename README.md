@@ -41,6 +41,6 @@ Sistema em Django para gerir pacientes, consultas e relatórios médicos.
 ---
 
 📌 **Aceda ao meu portfólio online:**  
-👉 [https://teu-usuario.github.io](https://joaomacondo.github.io)
+👉 [https://joaomacondo.github.io](https://joaomacondo.github.io)
 
 ---
